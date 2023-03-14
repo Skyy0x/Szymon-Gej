@@ -26,7 +26,7 @@ body {
 }
 
 .logo {
-    padding-left: ;
+    letter-spacing: 30px;
 }
 
 .navbar a {
@@ -37,19 +37,17 @@ a {
     text-decoration: none;
 }
 
-.more {
-    text-shadow: 3px 3px 0px rgba(189, 189, 189, 1); 
-    
-    
-    
-} 
 
 #house-1 {
     position: absolute;
     top: 200px;
     left: 50px;
-    height: 50%;
     box-shadow: 10px 10px 0px 0px rgba(245, 255, 250, 1);
+    margin: 10px;
+    max-width: 100%;
+    min-width: 300px;
+    max-height: 50%;
+    height: auto;
 }
 
 #house-2 {
@@ -58,6 +56,10 @@ top: 500px;
 right: 50px;
 height: 40%;
 box-shadow: -10px -10px 0px 0px rgba(245, 255, 250, 1);
+max-width: 100%;
+min-width: 300px;
+max-height: 40%;
+height: auto;
 }
 
 #more {
@@ -66,11 +68,28 @@ display:flex ;
 justify-content: space-around;
 text-align: center;
 position: relative;
-top: 500px;
+top: 200px;
+text-shadow: 5px 5px 0px rgba(189, 189, 189, 1); 
+z-index: 1;
 }
-.main img {
 
+.about {
+    background-color: white;
+    position: absolute;
+    top: 950px;
 }
+
+.about p {
+    font-size: 100px;
+    text-shadow: 5px 5px 0px rgba(189, 189, 189, 1); 
+    display:flex ;
+    justify-content: space-around;
+    text-align: center;
+    position: relative;
+}
+
+
+
 
 
 
